@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/enhanced-button";
 import heroImage from "@/assets/hero-real-estate.jpg";
 
@@ -9,7 +10,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+        <div className="absolute inset-0 bg-gradient-hero opacity-60"></div>
       </div>
       
       {/* Content */}
