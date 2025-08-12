@@ -41,7 +41,7 @@ const SolutionSection = () => {
         <Button 
           variant="success" 
           size="xl" 
-          className="text-xl font-bold animate-pulse-soft"
+          className="text-base md:text-xl font-bold animate-pulse-soft w-full max-w-2xl mx-auto px-4"
           onClick={() => window.open('https://calendly.com', '_blank')}
         >
           📅 Quiero agendar mi llamada y recibir mis 15 clientes potenciales

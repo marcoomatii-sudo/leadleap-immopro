@@ -45,7 +45,7 @@ const OfferSection = () => {
           <Button 
             variant="premium" 
             size="xl" 
-            className="text-xl font-bold"
+            className="text-base md:text-xl font-bold w-full max-w-lg mx-auto px-4"
             onClick={() => window.open('https://calendly.com', '_blank')}
           >
             🎁 Quiero mis bonus GRATIS + 15 leads por 17€
