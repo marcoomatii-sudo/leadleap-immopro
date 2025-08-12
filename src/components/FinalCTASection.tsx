@@ -35,7 +35,7 @@ const FinalCTASection = () => {
         <Button 
           variant="success" 
           size="xl" 
-          className="text-lg md:text-2xl font-bold py-4 md:py-6 px-6 md:px-12 animate-pulse-soft w-full max-w-2xl mx-auto"
+          className="text-lg md:text-2xl font-bold py-4 md:py-6 px-6 md:px-12 animate-pulse-soft w-full max-w-2xl mx-auto text-center leading-tight"
           onClick={() => window.open('https://calendly.com', '_blank')}
         >
           📅 Quiero mis 15 clientes potenciales por 17 €

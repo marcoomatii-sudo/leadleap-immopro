@@ -28,7 +28,7 @@ const HeroSection = () => {
         <Button 
           variant="success" 
           size="xl" 
-          className="animate-pulse-soft text-base md:text-lg w-full max-w-md mx-auto"
+          className="animate-pulse-soft text-base md:text-lg w-full max-w-md mx-auto text-center leading-tight"
           onClick={() => window.open('https://calendly.com', '_blank')}
         >
           📅 Quiero vender/alquilar más rápido
