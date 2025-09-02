@@ -42,7 +42,7 @@ const SolutionSection = () => {
           variant="success" 
           size="xl" 
           className="text-base md:text-xl font-bold animate-pulse-soft w-full max-w-sm mx-auto px-4 text-center leading-tight"
-          onClick={() => window.open('https://calendly.com', '_blank')}
+          onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
         >
           📅 Quiero agendar mi llamada y recibir mis 15 clientes potenciales
         </Button>

@@ -46,7 +46,7 @@ const OfferSection = () => {
             variant="premium" 
             size="xl" 
             className="text-base md:text-xl font-bold w-full max-w-xs mx-auto px-4 text-center leading-tight"
-            onClick={() => window.open('https://calendly.com', '_blank')}
+            onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
           >
             🎁 Quiero mis bonus GRATIS + 15 leads por 17€
           </Button>

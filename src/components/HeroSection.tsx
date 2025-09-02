@@ -30,7 +30,7 @@ const HeroSection = () => {
           variant="success" 
           size="xl" 
           className="animate-pulse-soft text-base md:text-lg w-full max-w-xs mx-auto text-center leading-tight"
-          onClick={() => window.open('https://calendly.com', '_blank')}
+          onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
         >
           📅 Quiero vender/alquilar más rápido
         </Button>
