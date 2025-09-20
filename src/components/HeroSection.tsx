@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/enhanced-button";
+import { Home, Key, Building2 } from "lucide-react";
 import heroImage from "@/assets/hero-real-estate.jpg";
 
 const HeroSection = () => {
@@ -16,14 +17,17 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
         <div className="animate-float">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            🏠 ¿Cansado de que tus pisos tarden semanas 
-            <span className="text-yellow-400"> (o meses)</span> en venderse o alquilarse?
+          <div className="flex items-center justify-center mb-6">
+            <Home className="text-primary mr-4" size={64} />
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
+            ¿Cansado de que tus pisos tarden semanas 
+            <span className="text-primary"> (o meses)</span> en venderse o alquilarse?
           </h1>
         </div>
         
-        <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-3xl mx-auto leading-relaxed">
-          Esto es lo que estás haciendo mal… y cómo puedes solucionarlo en solo <strong>7 días</strong>.
+        <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          Esto es lo que estás haciendo mal… y cómo puedes solucionarlo en solo <strong className="text-primary">7 días</strong>.
         </p>
         
         <Button 
@@ -36,8 +40,12 @@ const HeroSection = () => {
         </Button>
         
         {/* Floating elements */}
-        <div className="absolute top-20 left-10 text-6xl animate-float opacity-20">🏢</div>
-        <div className="absolute bottom-20 right-10 text-6xl animate-float opacity-20" style={{ animationDelay: '1s' }}>🔑</div>
+        <div className="absolute top-20 left-10 animate-float opacity-20">
+          <Building2 className="text-primary" size={48} />
+        </div>
+        <div className="absolute bottom-20 right-10 animate-float opacity-20" style={{ animationDelay: '1s' }}>
+          <Key className="text-primary" size={48} />
+        </div>
       </div>
     </section>
   );
