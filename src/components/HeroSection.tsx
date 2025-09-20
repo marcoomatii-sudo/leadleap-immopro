@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/enhanced-button";
-import { Home, Key, Building2 } from "lucide-react";
+import { Home, Key, Building2, Calendar } from "lucide-react";
 import heroImage from "@/assets/hero-real-estate.jpg";
 
 const HeroSection = () => {
@@ -33,10 +33,11 @@ const HeroSection = () => {
         <Button 
           variant="success" 
           size="xl" 
-          className="animate-pulse-soft text-base md:text-lg w-full max-w-xs mx-auto text-center leading-tight"
+          className="animate-pulse-soft text-base md:text-lg w-full max-w-xs mx-auto text-center leading-tight flex items-center justify-center gap-2"
           onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
         >
-          📅 Quiero vender/alquilar más rápido
+          <Calendar className="w-5 h-5" />
+          Quiero vender/alquilar más rápido
         </Button>
         
         {/* Floating elements */}

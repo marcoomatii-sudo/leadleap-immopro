@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/enhanced-button";
-import { Zap, DollarSign, Gift } from "lucide-react";
+import { Zap, DollarSign, Gift, Calendar } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
@@ -42,10 +42,11 @@ const FinalCTASection = () => {
         <Button 
           variant="success" 
           size="xl" 
-          className="text-lg md:text-2xl font-bold py-4 md:py-6 px-6 md:px-12 animate-pulse-soft w-full max-w-sm mx-auto text-center leading-tight"
+          className="text-lg md:text-2xl font-bold py-4 md:py-6 px-6 md:px-12 animate-pulse-soft w-full max-w-sm mx-auto text-center leading-tight flex items-center justify-center gap-2"
           onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
         >
-          📅 Quiero mis 15 clientes potenciales por 17 €
+          <Calendar className="w-6 h-6" />
+          Quiero mis 15 clientes potenciales por 17 €
         </Button>
         
         <p className="text-sm text-muted-foreground mt-6 flex items-center justify-center">

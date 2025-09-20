@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/enhanced-button";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Gift, Zap } from "lucide-react";
 
 const OfferSection = () => {
   const bonuses = [
@@ -37,8 +37,9 @@ const OfferSection = () => {
           </div>
           
           <div className="bg-accent/10 rounded-xl p-6 border border-accent/30 mb-8">
-            <p className="text-lg font-bold text-foreground">
-              ⚡ Valor total: <span className="text-accent">49 €</span> – 
+            <p className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
+              <Zap className="text-accent" size={20} />
+              Valor total: <span className="text-accent">49 €</span> – 
               Hoy <span className="text-primary">GRATIS</span> con tu pack de leads por solo 
               <span className="text-primary"> 17 €</span>
             </p>
@@ -47,10 +48,11 @@ const OfferSection = () => {
           <Button 
             variant="premium" 
             size="xl" 
-            className="text-base md:text-xl font-bold w-full max-w-xs mx-auto px-4 text-center leading-tight"
+            className="text-base md:text-xl font-bold w-full max-w-xs mx-auto px-4 text-center leading-tight flex items-center justify-center gap-2"
             onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
           >
-            🎁 Quiero mis bonus GRATIS + 15 leads por 17€
+            <Gift className="w-5 h-5" />
+            Quiero mis bonus GRATIS + 15 leads por 17€
           </Button>
         </div>
       </div>
