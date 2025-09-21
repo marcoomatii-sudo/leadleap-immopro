@@ -3,13 +3,13 @@ const TestimonialsSection = () => {
     {
       name: "María López",
       company: "Agencia XYZ",
-      text: "En 5 días ya tenía los contactos. Cerré 2 alquileres la primera semana. Servicio increíble.",
+      text: "La auditoría fue brutal. Me hicieron una web nueva y mi estrategia de RRSS cambió por completo. En 2 semanas ya tenía el triple de consultas.",
       rating: 5
     },
     {
       name: "Javier Ruiz", 
       company: "Inmobiliaria Sol y Mar",
-      text: "Por 17 € pensé que sería algo básico… pero los leads fueron reales y de calidad. Ya quiero el siguiente paquete.",
+      text: "Por 17€ no esperaba tanto. El PDF con mejoras era súper detallado y la nueva estrategia de contenido me está dando resultados increíbles.",
       rating: 5
     }
   ];

@@ -21,13 +21,13 @@ const HeroSection = () => {
             <Home className="text-primary mr-4" size={64} />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
-            ¿Cansado de que tus pisos tarden semanas 
-            <span className="text-primary"> (o meses)</span> en venderse o alquilarse?
+            ¿Tu página web y redes sociales están 
+            <span className="text-primary">perdiendo clientes</span> cada día?
           </h1>
         </div>
         
         <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Esto es lo que estás haciendo mal… y cómo puedes solucionarlo en solo <strong className="text-primary">7 días</strong>.
+          Descubre exactamente qué está fallando en tu presencia online y cómo <strong className="text-primary">captarás más leads</strong> inmediatamente.
         </p>
         
         <Button 
@@ -37,7 +37,7 @@ const HeroSection = () => {
           onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
         >
           <Calendar className="w-5 h-5" />
-          Quiero vender/alquilar más rápido
+          Quiero mi auditoría por 17€
         </Button>
         
         {/* Floating elements */}

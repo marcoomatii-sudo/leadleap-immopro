@@ -2,36 +2,36 @@ import { Button } from "@/components/ui/enhanced-button";
 import { CheckCircle, Gift, Zap } from "lucide-react";
 
 const OfferSection = () => {
-  const bonuses = [
-    "Guía Rápida para Vender o Alquilar en Tiempo Récord",
-    "Cómo Cerrar Tratos con Clientes Difíciles", 
-    "Copywriting Inmobiliario: Palabras que Venden",
-    "Checklist de Fotografía Inmobiliaria que Aumenta un 300% las Visitas",
-    "Calendario de Publicaciones para Inmobiliarias en Redes Sociales"
+  const auditComponents = [
+    "Análisis completo de tu página web actual",
+    "Diseño de nueva web optimizada para leads (si es necesario)", 
+    "Auditoría de tus redes sociales y estrategia de contenido",
+    "PDF detallado con puntos de mejora y oportunidades",
+    "Plan de acción personalizado para captar más clientes"
   ];
 
   return (
     <section className="py-20 bg-gradient-subtle">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-          Si reservas hoy, te llevas <span className="text-primary">GRATIS</span> estos 
-          <br/>5 bonus exclusivos (valorados en <span className="text-accent">49 €</span>)
+          Tu <span className="text-primary">Auditoría Exprés Completa</span> por solo
+          <br/><span className="text-accent">17€</span> incluye todo esto:
         </h2>
         
         <div className="bg-card rounded-2xl p-8 shadow-elegant border border-border mb-8">
           <p className="text-lg text-muted-foreground mb-6">
-            Además de tus 15 clientes potenciales, recibirás acceso inmediato a estas guías 
-            y herramientas que harán que cierres operaciones más rápido que tu competencia:
+            No es solo una revisión superficial. Es un <strong>análisis profundo</strong> de todo lo que puede 
+            estar impidiendo que tu inmobiliaria capte más leads online:
           </p>
           
           <div className="space-y-4 mb-8">
-            {bonuses.map((bonus, index) => (
+            {auditComponents.map((component, index) => (
               <div 
                 key={index}
                 className="text-left p-4 bg-primary/5 rounded-lg border border-primary/20 hover:bg-primary/10 transition-colors flex items-center"
               >
                 <CheckCircle className="text-primary mr-3 flex-shrink-0" size={20} />
-                <p className="text-foreground font-medium">{bonus}</p>
+                <p className="text-foreground font-medium">{component}</p>
               </div>
             ))}
           </div>
@@ -39,9 +39,9 @@ const OfferSection = () => {
           <div className="bg-accent/10 rounded-xl p-6 border border-accent/30 mb-8">
             <p className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
               <Zap className="text-accent" size={20} />
-              Valor total: <span className="text-accent">49 €</span> – 
-              Hoy <span className="text-primary">GRATIS</span> con tu pack de leads por solo 
-              <span className="text-primary"> 17 €</span>
+              Valor total: <span className="text-accent">297 €</span> – 
+              Hoy por solo <span className="text-primary">17 €</span>
+              <br/><span className="text-sm text-muted-foreground">(Oferta limitada)</span>
             </p>
           </div>
           
@@ -52,7 +52,7 @@ const OfferSection = () => {
             onClick={() => window.open('https://calendly.com/marcoomatii/30min', '_blank')}
           >
             <Gift className="w-5 h-5" />
-            Quiero mis bonus GRATIS + 15 leads por 17€
+            Quiero mi auditoría completa por 17€
           </Button>
         </div>
       </div>

@@ -5,20 +5,20 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "¿Los clientes potenciales son reales?",
-      answer: "Sí, son personas reales que han mostrado interés en propiedades como las que ofreces."
+      question: "¿Qué incluye exactamente la auditoría?",
+      answer: "Análisis completo de tu web, revisión de RRSS, nueva web si es necesario, PDF con mejoras detalladas y plan de acción personalizado."
     },
     {
-      question: "¿Necesito pagar publicidad aparte?",
-      answer: "No, nosotros nos encargamos de todo. Tú solo recibes los contactos."
+      question: "¿Me hacéis una nueva web si la mía está mal?",
+      answer: "Sí, si tu web actual no convierte, te diseñamos una nueva optimizada para captar leads inmobiliarios."
     },
     {
-      question: "¿En qué zonas funciona?",
-      answer: "Trabajamos en cualquier ciudad de España, ajustando la búsqueda a tu mercado local."
+      question: "¿Cuánto tiempo tarda la auditoría?",
+      answer: "En máximo 5 días laborables tienes todo: análisis, nueva web (si aplica) y tu plan de acción completo."
     },
     {
-      question: "¿Cuándo recibiré los leads?",
-      answer: "En un máximo de 7 días desde que confirmes tu reserva."
+      question: "¿Solo por 17€? ¿No hay letra pequeña?",
+      answer: "Es una oferta limitada para los primeros 50 clientes. Precio real: 297€. No hay costes ocultos, solo 17€."
     }
   ];
 
