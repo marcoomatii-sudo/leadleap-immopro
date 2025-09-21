@@ -36,11 +36,11 @@ const OfferSection = () => {
             ))}
           </div>
           
-          <div className="bg-accent/10 rounded-xl p-6 border border-accent/30 mb-8">
+          <div className="bg-background rounded-xl p-6 border border-primary/30 mb-8">
             <p className="text-lg font-bold text-foreground flex items-center justify-center gap-2">
-              <Zap className="text-accent" size={20} />
-              Valor total: <span className="text-accent">297 €</span> – 
-              Hoy por solo <span className="text-primary">17 €</span>
+              <Zap className="text-primary" size={20} />
+              Valor total: <span className="text-primary">100 €</span> – 
+              Hoy por solo <span className="text-accent">17 €</span>
               <br/><span className="text-sm text-muted-foreground">(Oferta limitada)</span>
             </p>
           </div>
