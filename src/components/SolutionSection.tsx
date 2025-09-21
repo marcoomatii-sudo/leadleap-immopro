@@ -5,8 +5,8 @@ const SolutionSection = () => {
   return (
     <section className="py-20 bg-gradient-primary">
       <div className="max-w-5xl mx-auto px-6 text-center text-white">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-          <span className="text-primary">Auditoría Exprés por 17€</span><br/>
+        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
+          <span className="text-white">Auditoría Exprés por 17€</span><br/>
           que transforma tu presencia online en máquina de leads
         </h2>
         
