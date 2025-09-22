@@ -3,7 +3,7 @@ import { Target, Zap, Briefcase, Calendar } from "lucide-react";
 
 const SolutionSection = () => {
   return (
-    <section className="py-20 bg-gradient-primary">
+    <section className="py-20 bg-black">
       <div className="max-w-5xl mx-auto px-6 text-center text-white">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">
           <span className="text-white">Auditoría Exprés por 17€</span><br/>
