@@ -1,27 +1,19 @@
-import HeroSection from "@/components/HeroSection";
-import ProblemSection from "@/components/ProblemSection";
-import AgitationSection from "@/components/AgitationSection";
-import SolutionSection from "@/components/SolutionSection";
-import BenefitsSection from "@/components/BenefitsSection";
-import OfferSection from "@/components/OfferSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import FAQSection from "@/components/FAQSection";
-import FinalCTASection from "@/components/FinalCTASection";
-import ContactSection from "@/components/ContactSection";
+import Navigation from "@/components/Navigation";
+import NewHeroSection from "@/components/NewHeroSection";
+import StatsSection from "@/components/StatsSection";
+import ServicesSection from "@/components/ServicesSection";
+import WhySection from "@/components/WhySection";
+import FinalCallToAction from "@/components/FinalCallToAction";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <HeroSection />
-      <ProblemSection />
-      <AgitationSection />
-      <SolutionSection />
-      <BenefitsSection />
-      <OfferSection />
-      <TestimonialsSection />
-      <FAQSection />
-      <FinalCTASection />
-      <ContactSection />
+      <Navigation />
+      <NewHeroSection />
+      <StatsSection />
+      <ServicesSection />
+      <WhySection />
+      <FinalCallToAction />
     </div>
   );
 };
