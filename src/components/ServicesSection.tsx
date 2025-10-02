@@ -48,11 +48,12 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className={`bg-card rounded-2xl p-8 border-2 transition-all duration-300 hover:scale-105 ${
+              className={`bg-card rounded-2xl p-8 border-2 transition-all duration-300 hover:scale-105 hover:shadow-elegant ${
                 service.featured 
-                  ? 'border-primary shadow-elegant' 
+                  ? 'border-primary shadow-elegant animate-pulse-soft' 
                   : 'border-border hover:border-primary/50'
               }`}
+              style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="mb-4">
                 <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
@@ -60,10 +61,13 @@ const ServicesSection = () => {
                 </span>
               </div>
               
-              <div className="mb-4">
-                <div className="text-4xl font-bold text-primary mb-2">
+              <div className="mb-4 relative overflow-hidden">
+                <div className="text-4xl font-bold text-primary mb-2 transition-all duration-500 hover:scale-110 inline-block">
                   {service.price}
                 </div>
+                {service.featured && (
+                  <div className="absolute -right-2 -top-2 w-20 h-20 bg-primary/10 rounded-full blur-xl animate-pulse" />
+                )}
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -76,7 +80,11 @@ const ServicesSection = () => {
               
               <Button 
                 asChild
-                className={service.featured ? "w-full bg-primary text-primary-foreground hover:bg-primary/90" : "w-full"}
+                className={
+                  service.featured 
+                    ? "w-full bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-elegant animate-pulse-soft" 
+                    : "w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                }
                 variant={service.featured ? "default" : "outline"}
               >
                 {service.link.startsWith('http') ? (

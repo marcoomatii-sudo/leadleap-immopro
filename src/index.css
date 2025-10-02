@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 45 100% 85%;
+    --background: 0 0% 8%;
+    --foreground: 45 80% 72%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 45 100% 85%;
+    --card: 0 0% 10%;
+    --card-foreground: 45 80% 72%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 45 100% 85%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 45 80% 72%;
 
-    --primary: 45 100% 50%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 45 95% 72%;
+    --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 15%;
-    --secondary-foreground: 45 100% 85%;
+    --secondary-foreground: 45 80% 72%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 45 50% 70%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 45 40% 60%;
 
-    --accent: 45 100% 60%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 45 82% 66%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 45 100% 50%;
+    --ring: 45 95% 72%;
 
-    /* Luxury Black & Gold Design System */
-    --luxury-gold: 45 100% 50%;
-    --luxury-gold-light: 45 100% 65%;
-    --luxury-gold-dark: 45 100% 35%;
-    --luxury-black: 0 0% 0%;
-    --luxury-black-light: 0 0% 10%;
+    /* Updated Design System - #141414 and #FCE173/#E4C45A */
+    --luxury-gold: 45 95% 72%;
+    --luxury-gold-light: 45 90% 78%;
+    --luxury-gold-dark: 45 82% 66%;
+    --luxury-black: 0 0% 8%;
+    --luxury-black-light: 0 0% 12%;
     --luxury-gray: 0 0% 30%;
     --luxury-gray-light: 0 0% 50%;
     
@@ -86,33 +86,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 0%;
-    --foreground: 45 100% 85%;
+    --background: 0 0% 8%;
+    --foreground: 45 80% 72%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 45 100% 85%;
+    --card: 0 0% 10%;
+    --card-foreground: 45 80% 72%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 45 100% 85%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 45 80% 72%;
 
-    --primary: 45 100% 50%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 45 95% 72%;
+    --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 15%;
-    --secondary-foreground: 45 100% 85%;
+    --secondary-foreground: 45 80% 72%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 45 50% 70%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 45 40% 60%;
 
-    --accent: 45 100% 60%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 45 82% 66%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 45 100% 50%;
+    --ring: 45 95% 72%;
 
     /* Dark mode adjustments */
     --gradient-primary: linear-gradient(135deg, hsl(var(--luxury-gold)), hsl(var(--luxury-gold-light)));
@@ -136,5 +136,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@keyframes subtle-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
   }
 }
