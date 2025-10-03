@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 45 80% 72%;
 
-    --primary: 45 100% 68%;
+    --primary: 39 69% 52%;
     --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 15%;
-    --secondary-foreground: 45 80% 72%;
+    --secondary-foreground: 39 69% 52%;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 45 40% 60%;
+    --muted-foreground: 39 40% 60%;
 
-    --accent: 45 82% 66%;
+    --accent: 39 69% 52%;
     --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84% 60%;
@@ -34,12 +34,12 @@ All colors MUST be HSL.
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 45 100% 68%;
+    --ring: 39 69% 52%;
 
-    /* Updated Design System - #141414 and #FCE173/#E4C45A */
-    --luxury-gold: 45 100% 68%;
-    --luxury-gold-light: 45 100% 75%;
-    --luxury-gold-dark: 45 82% 66%;
+    /* Updated Design System - #141414 and #DDA92C */
+    --luxury-gold: 39 69% 52%;
+    --luxury-gold-light: 39 69% 62%;
+    --luxury-gold-dark: 39 69% 42%;
     --luxury-black: 0 0% 8%;
     --luxury-black-light: 0 0% 12%;
     --luxury-gray: 0 0% 30%;
@@ -95,16 +95,16 @@ All colors MUST be HSL.
     --popover: 0 0% 10%;
     --popover-foreground: 45 80% 72%;
 
-    --primary: 45 100% 68%;
+    --primary: 39 69% 52%;
     --primary-foreground: 0 0% 8%;
 
     --secondary: 0 0% 15%;
-    --secondary-foreground: 45 80% 72%;
+    --secondary-foreground: 39 69% 52%;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 45 40% 60%;
+    --muted-foreground: 39 40% 60%;
 
-    --accent: 45 82% 66%;
+    --accent: 39 69% 52%;
     --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84% 60%;
@@ -112,7 +112,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 45 100% 68%;
+    --ring: 39 69% 52%;
 
     /* Dark mode adjustments */
     --gradient-primary: linear-gradient(135deg, hsl(var(--luxury-gold)), hsl(var(--luxury-gold-light)));
@@ -163,10 +163,10 @@ All colors MUST be HSL.
 
 @keyframes glow-pulse {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(252, 225, 115, 0.5), 0 0 40px rgba(252, 225, 115, 0.3);
+    box-shadow: 0 0 20px rgba(221, 169, 44, 0.5), 0 0 40px rgba(221, 169, 44, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(252, 225, 115, 0.7), 0 0 80px rgba(252, 225, 115, 0.4);
+    box-shadow: 0 0 40px rgba(221, 169, 44, 0.7), 0 0 80px rgba(221, 169, 44, 0.4);
   }
 }
 
