@@ -54,7 +54,7 @@ const NewHeroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Auditoría Gratis
+              Auditoría por 17€
             </a>
           </Button>
           
