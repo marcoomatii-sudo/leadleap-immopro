@@ -73,47 +73,47 @@ const Servicios = () => {
               return (
                 <div
                   key={index}
-                  className="bg-card rounded-2xl p-8 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:scale-105 hover:shadow-elegant flex flex-col"
+                  className="bg-[#1a1a1a] rounded-2xl p-8 border border-[#333] hover:border-primary/30 transition-all duration-300 hover:scale-[1.02] flex flex-col"
                 >
                   <div className="mb-4">
-                    <span className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold">
+                    <span className="inline-block bg-primary text-black px-4 py-2 rounded-full text-sm font-bold">
                       {service.badge}
                     </span>
                   </div>
 
-                  <div className="mb-4">
-                    <div className="text-3xl font-bold text-primary mb-1">
+                  <div className="mb-6">
+                    <div className="text-4xl font-bold text-primary mb-1">
                       {service.price}
                     </div>
                     {service.priceDetail && (
-                      <div className="text-sm text-muted-foreground">
+                      <div className="text-sm text-gray-400">
                         {service.priceDetail}
                       </div>
                     )}
-                    <div className="text-sm text-muted-foreground mt-1">
+                    <div className="text-sm text-gray-500 mt-1 flex items-center gap-2">
+                      <span className="inline-block w-2 h-2 bg-primary rounded-full"></span>
                       {service.subtitle}
                     </div>
                   </div>
 
-                  <div className="mb-4">
-                    <Icon className="text-primary w-12 h-12 mb-3" />
+                  <div className="mb-4 flex items-center gap-3">
+                    <Icon className="text-primary w-10 h-10" />
+                    <h3 className="text-2xl font-bold text-white">
+                      {service.title}
+                    </h3>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-foreground mb-4">
-                    {service.title}
-                  </h3>
-
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                  <p className="text-gray-400 mb-6 leading-relaxed">
                     {service.description}
                   </p>
 
                   {service.features.length > 0 && (
                     <div className="mb-6">
-                      <p className="font-semibold text-foreground mb-3">Incluye:</p>
-                      <ul className="space-y-2">
+                      <p className="font-semibold text-primary mb-3">Incluye:</p>
+                      <ul className="space-y-3">
                         {service.features.map((feature, idx) => (
-                          <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                            <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                          <li key={idx} className="flex items-start gap-3 text-sm text-gray-300">
+                            <span className="text-primary mt-0.5">•</span>
                             <span>{feature}</span>
                           </li>
                         ))}
@@ -121,15 +121,15 @@ const Servicios = () => {
                     </div>
                   )}
 
-                  <div className="bg-primary/10 rounded-lg p-4 mb-6 mt-auto">
-                    <p className="text-sm text-foreground">
+                  <div className="bg-[#1e3a5f] rounded-lg p-4 mb-6 mt-auto border border-[#2a4a6f]">
+                    <p className="text-sm text-gray-200 leading-relaxed">
                       {service.highlight}
                     </p>
                   </div>
 
                   <Button
                     asChild
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-elegant"
+                    className="w-full bg-primary text-black font-bold hover:bg-primary/90 transition-all duration-300 h-12 text-base"
                   >
                     {service.link.startsWith('http') ? (
                       <a
