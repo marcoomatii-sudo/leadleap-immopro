@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold text-primary">INMO</div>
+          <img src={logo} alt="InmoImpulsa" className="h-12 w-auto" />
         </Link>
         
         <div className="hidden md:flex items-center gap-8">
