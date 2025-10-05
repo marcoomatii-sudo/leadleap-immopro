@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Zap } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/hero-real-estate.jpg";
 import particlesOverlay from "@/assets/particles-overlay.jpg";
 
 const NewHeroSection = () => {
