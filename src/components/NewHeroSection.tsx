@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Zap } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 import particlesOverlay from "@/assets/particles-overlay.jpg";
@@ -64,9 +65,9 @@ const NewHeroSection = () => {
             variant="outline"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
-            <a href="/servicios">
+            <Link to="/servicios">
               Ver Servicios
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
