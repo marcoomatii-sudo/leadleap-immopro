@@ -17,16 +17,7 @@ const NewHeroSection = () => {
           animation: 'subtle-zoom 20s ease-in-out infinite alternate'
         }}
       />
-      <div 
-        className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background z-0"
-        style={{
-          backgroundImage: `url(${particlesOverlay})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          opacity: 0.15,
-          animation: 'float-particles 15s ease-in-out infinite'
-        }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background z-0" />
       
       <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
         <div className="mb-6 inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 text-primary px-4 py-2 rounded-full">
