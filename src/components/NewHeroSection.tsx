@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Zap } from "lucide-react";
-import heroBackground from "@/assets/hero-real-estate.jpg";
+import heroBackground from "@/assets/hero-house.jpg";
 import particlesOverlay from "@/assets/particles-overlay.jpg";
 
 const NewHeroSection = () => {
@@ -29,7 +29,7 @@ const NewHeroSection = () => {
       />
       
       <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
-        <div className="mb-6 inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 text-primary px-4 py-2 rounded-full animate-pulse-soft">
+        <div className="mb-6 inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 text-primary px-4 py-2 rounded-full">
           <Zap className="w-4 h-4" />
           <span className="font-semibold">Resultados en 48 horas</span>
         </div>
