@@ -60,25 +60,25 @@ const RealEstateShowcase = () => {
             className="w-full h-96 object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent flex items-center">
-            <div className="max-w-xl p-12">
-              <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <div className="max-w-xl p-6 md:p-12">
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4">
                 Conectamos Agencias con sus Clientes Ideales
               </h3>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-base md:text-lg text-muted-foreground mb-6">
                 No solo generamos leads, creamos relaciones duraderas que convierten visitas en ventas
               </p>
-              <div className="flex gap-8">
-                <div>
-                  <div className="text-3xl font-bold text-primary">+300%</div>
-                  <div className="text-sm text-muted-foreground">Más leads</div>
+              <div className="flex flex-wrap gap-4 md:gap-8">
+                <div className="min-w-[80px]">
+                  <div className="text-2xl md:text-3xl font-bold text-primary">+300%</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">Más leads</div>
                 </div>
-                <div>
-                  <div className="text-3xl font-bold text-primary">48h</div>
-                  <div className="text-sm text-muted-foreground">Primeros resultados</div>
+                <div className="min-w-[80px]">
+                  <div className="text-2xl md:text-3xl font-bold text-primary">48h</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">Primeros resultados</div>
                 </div>
-                <div>
-                  <div className="text-3xl font-bold text-primary">24/7</div>
-                  <div className="text-sm text-muted-foreground">Captación activa</div>
+                <div className="min-w-[80px]">
+                  <div className="text-2xl md:text-3xl font-bold text-primary">24/7</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">Captación activa</div>
                 </div>
               </div>
             </div>
