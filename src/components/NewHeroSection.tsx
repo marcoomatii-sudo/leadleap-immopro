@@ -9,7 +9,7 @@ const NewHeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-background pt-20 overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 z-0 opacity-20"
+        className="absolute inset-0 z-0 opacity-40"
         style={{
           backgroundImage: `url(${heroBackground})`,
           backgroundSize: 'cover',

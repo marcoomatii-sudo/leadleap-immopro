@@ -28,7 +28,7 @@ const WhySection = () => {
   return (
     <section className="py-20 bg-background relative overflow-hidden">
       <div 
-        className="absolute inset-0 opacity-5"
+        className="absolute inset-0 opacity-15"
         style={{
           backgroundImage: `url(${marketingDashboard})`,
           backgroundSize: 'cover',
