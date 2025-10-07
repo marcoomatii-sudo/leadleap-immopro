@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const FinalCallToAction = () => {
   return (
@@ -31,11 +32,11 @@ const FinalCallToAction = () => {
             asChild
             size="lg"
             variant="outline"
-            className="border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
+            className="border-2 border-primary-foreground/20 text-primary hover:bg-primary-foreground/10 hover:text-primary"
           >
-            <a href="/sobre-nosotros">
+            <Link to="/sobre-nosotros">
               Conocer más sobre nosotros
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
