@@ -18,7 +18,7 @@ const ServicesSection = () => {
       title: "Chatbot de Captación",
       description: "Asistente virtual 24/7 que filtra leads. Responde automáticamente y entrega al agente solo clientes cualificados.",
       cta: "Más información",
-      link: "/servicios",
+      link: "https://calendly.com/inmoimpulsa1/30min?month=2025-10",
       featured: false
     },
     {
@@ -27,7 +27,7 @@ const ServicesSection = () => {
       title: "Sistema Completo de Captación",
       description: "Campañas en Meta/Google Ads, chatbot conectado al CRM y automatizaciones de seguimiento. Todo integrado.",
       cta: "Más información",
-      link: "/servicios",
+      link: "https://calendly.com/inmoimpulsa1/30min?month=2025-10",
       featured: false
     }
   ];

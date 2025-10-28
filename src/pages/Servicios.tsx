@@ -27,7 +27,7 @@ const Servicios = () => {
       description: "Asistente virtual 24/7 que filtra leads",
       highlight: "📱 Para inmobiliarias que quieren automatizar la captación inicial de leads.",
       cta: "Más información",
-      link: "/contacto",
+      link: "https://calendly.com/inmoimpulsa1/30min?month=2025-10",
       features: [
         "Responde automáticamente en WhatsApp/Web",
         "Pregunta presupuesto, zona, nº habitaciones",
@@ -44,7 +44,7 @@ const Servicios = () => {
       description: "Escalamos la captación de clientes con un sistema integral",
       highlight: "📊 Para inmobiliarias que quieren escalar su negocio de forma completa.",
       cta: "Más información",
-      link: "/contacto",
+      link: "https://calendly.com/inmoimpulsa1/30min?month=2025-10",
       features: [
         "Campañas en Meta/Google Ads para generar leads constantes",
         "Chatbot conectado al CRM: cada lead entra con datos completos",
