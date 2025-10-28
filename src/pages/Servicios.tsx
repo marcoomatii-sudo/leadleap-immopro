@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Search, MessageSquare, Rocket, Check } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Servicios = () => {
   const services = [
@@ -140,7 +141,7 @@ const Servicios = () => {
                         {service.cta}
                       </a>
                     ) : (
-                      <a href={service.link}>{service.cta}</a>
+                      <Link to={service.link}>{service.cta}</Link>
                     )}
                   </Button>
                 </div>

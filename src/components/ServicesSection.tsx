@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
 
 const ServicesSection = () => {
@@ -96,9 +97,9 @@ const ServicesSection = () => {
                     {service.cta}
                   </a>
                 ) : (
-                  <a href={service.link}>
+                  <Link to={service.link}>
                     {service.cta}
-                  </a>
+                  </Link>
                 )}
               </Button>
             </div>
@@ -112,9 +113,9 @@ const ServicesSection = () => {
             variant="outline"
             className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
           >
-            <a href="/servicios">
+            <Link to="/servicios">
               Ver Todos los Servicios
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
